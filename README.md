@@ -44,7 +44,7 @@ mygit/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mygit.git
+   git clone https://github.com/hirux06/mygit_backend.git
    cd mygit
    ```
 2. **Install dependencies**
@@ -66,27 +66,22 @@ mygit/
    ```
 5. **Start using MyGit CLI**
    ```bash
-   node cli/mygit.js --help
+   index.js <command and argument goes here>
    ```
 
 ## 🛠 Usage
 
 ### Initialize a repository
 ```bash
-node cli/mygit.js init
+index.js init
 ```
 
 ### Add and commit files
 ```bash
-node cli/mygit.js add file.txt
-node cli/mygit.js commit -m "Initial commit"
+node index.js add file.txt
+node index.js commit -m "Initial commit"
 ```
 
-### Push and pull changes
-```bash
-node cli/mygit.js push
-node cli/mygit.js pull
-```
 
 ## 🌟 Future Enhancements
 - 🌍 Multi-cloud storage support (Google Drive, Dropbox)
